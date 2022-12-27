@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name= OpenAI Chat
-Exec=/usr/bin/openai-chat
-Icon=/usr/share/icons/hicolor/256x256/apps/openai.png
-Terminal=false
-StartupWMClass=OpenAI Chat
-StartupNotify=true
-Type=Application

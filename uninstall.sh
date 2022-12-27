@@ -8,13 +8,13 @@ if [ $? -ne 0 ]; then # If last command failed
   exit 1 # Exit with an error code
 fi
 
-rm -f /usr/share/applications/openai.desktop
+rm -f /usr/share/applications/openai-chat.desktop
 if [ $? -ne 0 ]; then # If last command failed
   echo "FAILED to delete the openai-chat shortcut from /usr/share/applications/"
   exit 1 # Exit with an error code
 fi
 
-rm -f /usr/share/icons/hicolor/256x256/apps/openai.png
+rm -f /usr/share/icons/hicolor/256x256/apps/openai-chat.png
 if [ $? -ne 0 ]; then # If last command failed
   echo "FAILED to delete the openai-chat icon from /usr/share/icons/hicolor/256x256/apps"
   exit 1 # Exit with an error code

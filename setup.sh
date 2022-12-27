@@ -12,7 +12,7 @@ fi
 
 #Copy desktop file
 echo "Installing OpenAI Chat desktop shortcut into /usr/share/applications"
-cp assets/openai.desktop /usr/share/applications/
+cp assets/openai-chat.desktop /usr/share/applications/
 if [ $? -ne 0 ]; then # If last command failed
   echo "Install FAILED"
   exit 1 # Exit with an error code
@@ -20,7 +20,7 @@ fi
 
 #Copy icon
 echo "Installing desktop icon into /usr/share/icons/hicolor/256x256/apps" 
-cp assets/openai.png /usr/share/icons/hicolor/256x256/apps/
+cp assets/openai-chat.png /usr/share/icons/hicolor/256x256/apps/
 if [ $? -ne 0 ]; then # If last command failed
   echo "Install FAILED"
   exit 1 # Exit with an error code
