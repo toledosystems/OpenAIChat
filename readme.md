@@ -2,7 +2,7 @@
 
 1. Add your [API key](https://beta.openai.com/account/api-keys) to the operating system environment with name "OPENAI_API_KEY" 
 
-   WARNING: If this is not done correctly there will be no responses in the chat window
+   WARNING: If this is not done correctly there will be no responses in the chat window or the application will not start
    Example: add the below line into the user ~/.bashrc with a text editor:
    
    ```bash
